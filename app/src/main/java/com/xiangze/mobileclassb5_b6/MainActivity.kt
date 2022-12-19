@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             this.lifecycle
         )
 
-        
+
 
         binding.vpPages.adapter = adapter
 
