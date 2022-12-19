@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProjectNotes</string>
+    <string name="app_my_notes">My Notes</string>
+    <string name="app_details">Details</string>
+    <string name="app_add_note">Adding New Note</string>
+    <string name="app_edit_note">Editing Note</string>
+    <string name="app_edit">Edit</string>
+    <string name="app_save">Save</string>
+    <string name="app_delete">Delete</string>
+    <string name="app_update">Update</string>
+    <string name="app_add">Add</string>
+    <string name="app_title">Title placeholder text here.. Lorem ipsum dolor sit amet</string>
+    <string name="app_description">Description placeholder text here.. Lorem ipsum dolor sit amet</string>
+    <string name="app_add_title">Title</string>
+    <string name="app_add_description">Description</string>
+    <string name="app_btn_add_item">Add New Item</string>
+    <string name="app_back">Back</string>
+</resources>
