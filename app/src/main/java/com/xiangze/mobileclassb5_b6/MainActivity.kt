@@ -8,7 +8,7 @@ import com.xiangze.mobileclassb5_b6.databinding.ActivityMainBinding
 import com.xiangze.mobileclassb5_b6.fragments.FirstFragment
 import com.xiangze.mobileclassb5_b6.fragments.SecondFragment
 
-// Khayrul
+// Justin
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -24,13 +24,11 @@ class MainActivity : AppCompatActivity() {
             this.lifecycle
         )
 
-
-
         binding.vpPages.adapter = adapter
 
         TabLayoutMediator(binding.tlHome, binding.vpPages) { tab, position ->
-            when(position) {
-                0 -> tab.text = "First Fragment0"
+            when (position) {
+                0 -> tab.text = "First Fragment"
                 else -> tab.text = "Second Fragment"
             }
         }.attach()

@@ -9,7 +9,7 @@ class PageAdapter(
     val fragments: List<Fragment>,
     fragmentManager: FragmentManager,
     lifecycle: Lifecycle
-): FragmentStateAdapter(fragmentManager, lifecycle) {
+) : FragmentStateAdapter(fragmentManager, lifecycle) {
     override fun getItemCount(): Int {
         return fragments.size
     }
@@ -17,4 +17,5 @@ class PageAdapter(
     override fun createFragment(position: Int): Fragment {
         return fragments[position]
     }
+
 }
