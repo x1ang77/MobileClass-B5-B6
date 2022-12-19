@@ -39,3 +39,5 @@ class MainActivity : AppCompatActivity() {
 //        binding.vpPages.setBackgroundColor(-16676986)
     }
 }
+
+// testing git reset
