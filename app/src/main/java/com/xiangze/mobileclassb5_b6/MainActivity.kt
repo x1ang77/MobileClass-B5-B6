@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
             this.lifecycle
         )
 
+        
+
         binding.vpPages.adapter = adapter
 
         TabLayoutMediator(binding.tlHome, binding.vpPages) { tab, position ->
